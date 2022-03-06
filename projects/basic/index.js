@@ -1,3 +1,3 @@
-(function() {
-    console.log('Index.js was invoked');
+(function () {
+  console.log("Index.js was invoked");
 })();
