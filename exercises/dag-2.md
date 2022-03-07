@@ -24,3 +24,12 @@ Ved hjælp af `document` get følgende elementer:
 3. p skal hentes vha dens class via `.getElementsByClassName`
 4. Lav ovenstående 3 opgaver vha. `.querySelector`
 5. Find sidste h3 vha. kombination af class og html-element i `.querySelector`
+
+## Lightbox
+
+Ved hjælp af alle vores evner erhvervet indtil nu, skal vi nu forbedre vores Lightbox funktionalitet, til at understøtte flere billeder end blot ét.
+
+1. Tilføj et nyt billede ved siden af det eksisterende
+2. Giv det `onclick`
+3. Udvid `openModal` til at tage imod et argument `imgUrl`
+   1. Tilføj `img.src = imgUrl`
