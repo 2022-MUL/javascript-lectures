@@ -1,4 +1,4 @@
-# Selvstudie
+# Selvstudie opgaver
 
 ## W3 Schools opgaver:
 
