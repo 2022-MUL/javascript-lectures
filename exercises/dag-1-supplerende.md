@@ -1,4 +1,4 @@
-# Supplerende selvstudie
+# Selvstudie opgaver
 
 Løs disse 3 kapitel opgaver på W3Schools:
 
