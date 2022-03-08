@@ -14,10 +14,6 @@
 
    1. Hvor i indsætter jeres eget navn ved brug af concatenation
 
-### Template literals (Template strings)
-
-1. Ret jeres velkomst besked til at bruge template literals
-
 ## Numbers
 
 Lad os regne på hvor meget jeres SU ville være i hhv. euro og usd.

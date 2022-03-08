@@ -50,7 +50,7 @@ og [String metoder](https://www.w3schools.com/js/js_string_methods.asp) og Løse
 1. [String](https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_strings1)
 2. [String metoder](https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_string_methods1)
 
-### Flere opgaver: Avanceret Strings
+## Strings metoder
 
 1. Givet følgende stykke kode, skal du ved hjælp af `slice` udskrive "lange string".
    ```js
@@ -60,3 +60,31 @@ og [String metoder](https://www.w3schools.com/js/js_string_methods.asp) og Løse
    ```js
    let langString = "hej med DIG, HVoRdan hAR du DET?";
    ```
+
+## Supplerende: Template Strings (Template literals)
+
+Dette er et mere moderne alternativ til concatenation.
+
+Laves med backtics: `, Shift + den knap lige til venstre for backspace.
+
+som eksempel kan vi oprette et navn:
+
+```js
+const myName = "Mathias";
+```
+
+og så indsætte det et i fx. en velkomstbesked:
+
+```js
+const welcome = `Welcome ${myName}, enjoy your stay.`;
+```
+
+og få resultat:
+
+```js
+Welcome Mathias, enjoy your stay.
+```
+
+Øvelse
+
+1. Lav jeres velkomst besked om til at bruge template literals.
