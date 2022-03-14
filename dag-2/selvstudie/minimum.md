@@ -1,8 +1,12 @@
 # W3 Schools opgaver:
 
-1. [JS Functions](https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_functions1)
-2. [JS Events](https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_events1)
-3. [HTML DOM](https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_dom_html1)
+1. [JS Objects](https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_objects1)
+
+2. [JS Arrays](https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_arrays1)
+
+3. [JS Functions](https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_functions1)
+
+4. [HTML DOM](https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_dom_html1)
 
 # Forberedelse til dag 3:
 
