@@ -33,3 +33,28 @@ const isJavaScriptNice = true;
 
 const result = 3.5 < 4;
 console.log(result);
+
+const adresse = {
+  name: myName,
+  vej: "Brobyvej",
+  nummer: 1,
+  postNr: 2740,
+};
+
+const person = {
+  name: "Mathias",
+  lastName: lastName,
+  email: email,
+  job: {
+    title: "Adjunkt",
+    location: "Lyngby",
+  },
+};
+
+console.log(person.name);
+console.log(person.lastName);
+
+person.name = person.name + " Nikolaj";
+
+person.adresse = adresse;
+console.log(person.job.location);
