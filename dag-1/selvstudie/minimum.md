@@ -4,6 +4,7 @@ Løs disse 3 kapitel opgaver på W3Schools:
 
 1. [JS Variables](https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_variables1)
 2. [JS Data Types](https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_datatypes1)
+3. [JS Objects](https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_objects1)
 
 # Forberedelse til dag 2:
 
