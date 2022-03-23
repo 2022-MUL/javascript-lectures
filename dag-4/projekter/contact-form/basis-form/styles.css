@@ -14,3 +14,11 @@ body {
 .container label {
   margin-top: 15px;
 }
+
+.validation-error {
+  border: 2px solid red;
+}
+
+.validation-error + span {
+  display: block !important;
+}
