@@ -9,20 +9,43 @@
     />
     <!-- My script and style files-->
     <link rel="stylesheet" href="styles.css" />
+    <!-- EmailJS config -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("CEkVVTSAKLLsxkGMU");
+      })();
+    </script>
   </head>
   <body id="root">
     <form id="contact-form">
       <div class="container">
         <label for="name">Name: </label>
-        <input id="name" type="text" required class="need-validation" />
+        <input
+          id="name"
+          name="name"
+          type="text"
+          required
+          class="need-validation"
+        />
         <span class="error-message">Please fill in your name</span>
 
         <label>Email: </label>
-        <input type="email" id="email" required class="need-validation" />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          required
+          class="need-validation"
+        />
 
         <label>Text message</label>
         <textarea
           required
+          name="message"
           rows="8"
           cols="50"
           class="need-validation"

@@ -2,6 +2,8 @@ document
   .getElementById("contact-form")
   .addEventListener("submit", validateForm);
 
+const templateParams = {};
+
 function validateForm(event) {
   event.preventDefault();
   console.log("submitted");
@@ -10,11 +12,22 @@ function validateForm(event) {
   console.log(elements);
   // 2nd step: loope henover alle input felter
   for (let element of elements) {
-    if (element.type == "text") {
+    if (element.type == "text" || element.type == "textarea") {
       textValidation(element);
     } else if (element.type == "email") {
       emailValidation(element);
     }
+  }
+
+  const errorElements = document.getElementsByClassName("validation-error");
+  console.log("errorElements", errorElements);
+  if (errorElements.length == 0) {
+    emailjs.send(
+      "service_b4vdexd",
+      "template_qa78alg",
+      templateParams,
+      "CEkVVTSAKLLsxkGMU"
+    );
   }
 }
 
@@ -23,6 +36,7 @@ function emailValidation(element) {
   if (value.includes("cphbusiness.dk")) {
     // Brugeren har gjort det korrekt
     element.classList.remove("validation-error");
+    templateParams[element.name] = value;
   } else {
     // brugeren har ikke gjort det korrekt
     element.classList.add("validation-error");
@@ -41,6 +55,7 @@ function textValidation(element) {
   } else {
     // Brugeren har ikke lavet en fejl
     element.classList.remove("validation-error");
+    templateParams[element.name] = value;
   }
 }
 
