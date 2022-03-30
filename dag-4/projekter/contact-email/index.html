@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Basic JavaScript project</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body id="root">
+    <div class="container">
+      <form onsubmit="submitForm()">
+        <label for="navn">Navn</label>
+        <input type="text" id="navn" >
+  
+        <label for="email">Email</label>
+        <input type="email" id="email" >
+  
+        <label for="besked">Besked</label>
+        <textarea id="besked" cols="50" rows="8"></textarea>
+  
+        
+        <label>
+          <input type="radio" name="color" value="blue">
+          Blue
+        </label>
+        <label>
+          <input type="radio" name="color" value="red">
+          Red
+        </label>
+  
+        <input type="submit" value="Send" >
+      </form>
+
+    </div>
+    <script src="script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+(function() {
+emailjs.init("CEkVVTSAKLLsxkGMU");
+})();
+</script>
+
+  </body>
+</html>

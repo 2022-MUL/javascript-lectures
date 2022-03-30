@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Basic JavaScript project</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body id="root">
+    <form onsubmit="submitForm()">
+      <div class="container">
+        <h1> Hvor meget elsker du JavaScript? </h1>
+        <label for="q1-option-1">
+          <input type="radio" id="q1-option-1" name="q1" value="Overhovedet ikke">
+          Overhovedet ikke
+        </label>
+        <label for="q1-option-2">
+          <input type="radio" id="q1-option-2" name="q1" value="Semi, men det er frustrerende">
+          En smule, men det er frustrerende
+        </label>
+        <label for="q1-option-3">
+          <input type="radio" id="q1-option-3" name="q1" value="Det er super fedt!">
+          Det er super fedt!
+        </label>
+        
+        <br>
+
+        <h1> Vælg de ting du har hørt om i JavaScript </h1>
+        <label for="q2-option-1">
+          <input type="checkbox" id="q2-option-1" name="q2" value="variabler">
+          Variabler med const og let
+        </label>
+
+        <label for="q2-option-2">
+          <input type="checkbox" id="q2-option-2" name="q2" value="funktioner">
+          Funktioner
+        </label>
+
+        <label for="q2-option-3">
+          <input type="checkbox" id="q2-option-3" name="q2" value="events">
+          Events
+        </label>
+
+        <label for="q2-option-4">
+          <input type="checkbox" id="q2-option-4" name="q2" value="Prototype methods">
+          Prototype methods
+        </label>
+        
+        <input type="submit" value="Send" >
+      </div>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
