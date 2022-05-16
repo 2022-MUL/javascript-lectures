@@ -17,5 +17,4 @@ function submitForm() {
   }
   
   emailjs.send(serviceID, templateID, emailData, userID);
-  return false;
 }
