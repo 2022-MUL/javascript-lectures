@@ -1,0 +1,32 @@
+body {
+  background-color: #fcdc00;
+  margin: 0px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.intro {
+  min-width: 100px;
+  min-height: 100px;
+  background-color: mediumturquoise;
+  border-radius: 5px;
+}
+
+button {
+  margin: 15px 0px;
+}
+
+.intro span {
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.intro span.fade {
+  opacity: 1;
+}

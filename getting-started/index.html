@@ -12,46 +12,64 @@
   <body id="root">
     <form onsubmit="submitForm()">
       <div class="container">
-        <h1> Hvor meget elsker du JavaScript? </h1>
+        <h1>Hvor meget elsker du JavaScript?</h1>
         <label for="q1-option-1">
-          <input type="radio" id="q1-option-1" name="q1" value="Overhovedet ikke">
+          <input type="radio" id="q1-option-1" name="q1" value="nej" />
           Overhovedet ikke
         </label>
         <label for="q1-option-2">
-          <input type="radio" id="q1-option-2" name="q1" value="Semi, men det er frustrerende">
-          En smule, men det er frustrerende
+          <input type="radio" id="q1-option-2" name="q1" value="måske" />
+          Semi, men det er frustrerende
         </label>
         <label for="q1-option-3">
-          <input type="radio" id="q1-option-3" name="q1" value="Det er super fedt!">
+          <input type="radio" id="q1-option-3" name="q1" value="ja" />
           Det er super fedt!
         </label>
-        
-        <br>
 
-        <h1> Vælg de ting du har hørt om i JavaScript </h1>
+        <br />
+
+        <h1>Vælg de ting du har hørt om i JavaScript</h1>
         <label for="q2-option-1">
-          <input type="checkbox" id="q2-option-1" name="q2" value="variabler">
+          <input type="checkbox" id="q2-option-1" name="q2" value="variabler" />
           Variabler med const og let
         </label>
 
         <label for="q2-option-2">
-          <input type="checkbox" id="q2-option-2" name="q2" value="funktioner">
+          <input
+            type="checkbox"
+            id="q2-option-2"
+            name="q2"
+            value="funktioner"
+          />
           Funktioner
         </label>
 
         <label for="q2-option-3">
-          <input type="checkbox" id="q2-option-3" name="q2" value="events">
+          <input type="checkbox" id="q2-option-3" name="q2" value="events" />
           Events
         </label>
 
         <label for="q2-option-4">
-          <input type="checkbox" id="q2-option-4" name="q2" value="Prototype methods">
+          <input
+            type="checkbox"
+            id="q2-option-4"
+            name="q2"
+            value="Prototype methods"
+          />
           Prototype methods
         </label>
-        
-        <input type="submit" value="Send" >
+
+        <input type="submit" value="Send" />
       </div>
     </form>
+
+    <div id="question1">
+      <button onclick="submitQuestion1()"></button>
+    </div>
+    <div id="question2" style="display: none">
+      <button id="hej-med-dig-knap" onclick="submitQuestion2()"></button>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>

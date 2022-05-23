@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Basic JavaScript project</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="lightbox">
+        <img
+          id="smallImage"
+          src="images/cute-cat.jpeg"
+          class="portrait"
+          onclick="openModal()"
+        />
+      </div>
+      <div id="myModal" class="modal" onclick="closeModal()">
+        <div class="modal--container">
+          <div class="modal--content">
+            <input type="text" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
